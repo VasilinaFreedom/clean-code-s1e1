@@ -10,15 +10,15 @@
 </head>
 <body>
   <header class="application-template">
-    <img src="./eisenhower-matrix.jpg" alt="Eisenhower matrix">
+    <img class="application-img" src="./eisenhower-matrix.jpg" alt="Eisenhower matrix">
     <a class="more-inf" 
         href="https://goal-life.com/page/method/matrix-eisenhower">
         Want more details?
     </a>
   </header>
   <main class="main-element">
-    <section>
-      <p id="section-for-element">
+    <section class="section-add-item">
+      <p id="add-item">
         <label for="new-task">Add Item</label>
       </p>
       <div class="task-row-wrapper">
@@ -26,9 +26,9 @@
         <button>Add</button>
       </div>
     </section>
-    <section>
-      <h3>Todo</h3>
-      <ul id="incomplete-tasks">
+    <section class="section-todo">
+      <h3 class="todo-name">Todo</h3>
+      <ul id="todo-incomplete-tasks">
         <li>
           <input type="checkbox">
           <label class="task">Pay Bills</label>
@@ -49,8 +49,8 @@
         </li>
       </ul>
     </section>
-    <section>
-      <h3>Completed</h3>
+    <section class="section-completed">
+      <h3 class="completed-name">Completed</h3>
       <ul id="completed-tasks">
         <li>
           <input type="checkbox" checked>
